@@ -1,3 +1,17 @@
+@media (max-width: 576px) {
+    .section{
+        width: 400px;
+    }
+    .button{
+        width: 75%;
+        margin-bottom: 20px!important;
+    }
+}
+@media (min-width: 577px) {
+    
+}
+
+
 *{
     padding: 0px !important;
     margin: 0px !important;
@@ -15,4 +29,7 @@ body{
 }
 .buttonOrange{
     background-color: #FF784B;
+}
+input {
+    outline:none;
 }
